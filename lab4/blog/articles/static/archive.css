@@ -1,0 +1,46 @@
+body {
+    background-color: #80BD9E;
+    color: #901b32;
+    font-family: Times New Roman; 
+}
+.header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-top: 25px;
+}
+.header img {
+    height: 200px;
+}	
+body a:link, a:visited, a:active, a:focus {
+    color: rgb(160,82,45);
+}
+.Link {
+    margin-left: 5%;
+    display: flex;
+}
+.post-title {
+    text-decoration: underline;
+    margin-right: auto;
+}
+.article-text {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.article-info {
+    display: flex;
+}
+.article-author {
+    width: 45%;
+    font-weight: bold;
+    margin-left: 5%;
+}
+.article-created-date {
+    width: 45%;
+    text-align: right;
+    margin-right: 5%;
+}
+p {
+    align="justify";
+}
